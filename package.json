@@ -11,8 +11,11 @@
   "dependencies": {
     "@reach/router": "^1.2.1",
     "axios": "^0.18.0",
+    "marked": "^0.7.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
+    "react-html-parser": "^2.0.2",
+    "react-marked-markdown": "^1.4.6",
     "react-static": "^7.0.0",
     "react-static-plugin-reach-router": "^7.0.0",
     "react-static-plugin-sitemap": "^7.0.0",
