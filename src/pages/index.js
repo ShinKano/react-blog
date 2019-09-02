@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Jumbo, BlogTitle, JumboImg } from '../components/Jumbo';
+import {Jumbo, Title, JumboImg } from '../components/Jumbo';
 
 export default () => (
   <Jumbo>
-    <BlogTitle>ShinKano-Blog</BlogTitle>
+    <Title>ShinKano-Blog</Title>
     <JumboImg src="https://damp-thicket-88898.herokuapp.com/uploads/377395d49f2145c78a95b2191ed532de.svg" />
     <h2>Link</h2>
     <p><a href="https://twitter.com/Shincoding" target="_blank" rel="noopener noreferrer">Twitter: @Shincoding</a></p>

@@ -14,7 +14,7 @@ export default {
           posts,
         }),
 
-        children: posts.map(post => ({
+        children: posts.reverse().map(post => ({
           path: `/post/${post.id}`,
           template: 'src/containers/Post',
           getData: () => ({

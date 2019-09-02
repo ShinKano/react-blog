@@ -35,5 +35,9 @@ nav a {
 }
 
 .content {
-  padding: 1rem;
+  padding: 2rem;
+}
+
+.align-center {
+  text-align: center;
 }

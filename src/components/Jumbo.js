@@ -2,10 +2,9 @@ import styled from 'styled-components';
 
 const Jumbo = styled.div`
 text-align: center;
-
 `;
 
-const BlogTitle = styled.h1`
+const Title = styled.h1`
   font-size: 50px;
   
   text-align: right;
@@ -18,4 +17,4 @@ const JumboImg = styled.img`
   position: relative;
 `;
 
-export { Jumbo, BlogTitle, JumboImg };
+export { Jumbo, Title, JumboImg };
