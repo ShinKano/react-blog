@@ -2,6 +2,10 @@ import React from 'react'
 
 export default () => (
   <div>
-    <p>React Static is a progressive static site generator for React.</p>
+    <p>Still preparing...</p>
+    <p>&nbsp;＼(･_･)7</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;&nbsp;)</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/⌒></p>
   </div>
 )
+
