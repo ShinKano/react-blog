@@ -15,11 +15,11 @@
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-html-parser": "^2.0.2",
-    "react-marked-markdown": "^1.4.6",
     "react-static": "^7.0.0",
     "react-static-plugin-reach-router": "^7.0.0",
     "react-static-plugin-sitemap": "^7.0.0",
-    "react-static-plugin-source-filesystem": "^7.0.0"
+    "react-static-plugin-source-filesystem": "^7.0.0",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "babel-eslint": "9.x",
