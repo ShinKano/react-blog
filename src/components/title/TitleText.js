@@ -12,10 +12,9 @@ export default () => (
 const baseColor = "#222";
 
 const TitleTextBg = styled.div`
-    background-color: #3E3C54;
+    background-color: #5C4D52;
     position: absolute;
-    bottom: -16px;
-    margin: 0px;
+    margin-top: -4px;
     width: -webkit-fill-available;
     color: ${baseColor};
     height: 100px;
