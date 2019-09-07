@@ -7,27 +7,6 @@ import styled from 'styled-components';
 //import {Jumbo, BlogTitle, JumboImg } from '../components/Jumbo';
 
 
-const PostsBox = styled.div`
-  border: 0px solid #ddd;
-  border-radius: 5px;
-  max-width: 640px;
-  margin: 20px auto;
-  padding: 10px 20px 1px 20px;
-  background-color: #ddd;
-  box-shadow: 10px 10px 15px -10px black;
-`;
-
-const BlogTitle = styled.h2`
-  font-size: 20px;
-  text-align: left;
-`;
-
-const BlogTime = styled.p`
-  font-size: 12px;
-  text-align: right;
-`;
-
-
 export default function Blog() {
   const { posts } = useRouteData()
   return (
@@ -54,3 +33,24 @@ export default function Blog() {
     </div>
   )
 }
+
+
+const PostsBox = styled.div`
+  border: 0px solid #ddd;
+  border-radius: 5px;
+  max-width: 640px;
+  margin: 20px auto;
+  padding: 10px 20px 1px 20px;
+  background-color: #ddd;
+  box-shadow: 10px 10px 15px -10px black;
+`;
+
+const BlogTitle = styled.h2`
+  font-size: 20px;
+  text-align: left;
+`;
+
+const BlogTime = styled.p`
+  font-size: 12px;
+  text-align: right;
+`;
