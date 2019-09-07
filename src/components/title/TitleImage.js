@@ -8,6 +8,8 @@ export default () => (
 )
 
 const TitleImage = styled.img`
-  width: 100%;
+  object-fit: cover;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
 `;
 

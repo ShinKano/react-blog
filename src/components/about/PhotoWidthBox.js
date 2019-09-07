@@ -43,9 +43,7 @@ const SquareDarkBrown = styled.div`
 
 const AboutPhoto = styled.img`
     display: block;
-    /* height: 0px; */
     width: 70%;
-    /* padding-bottom: 50%; */
     position: inherit;
     top: 116px;
     margin: 0 auto;

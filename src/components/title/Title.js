@@ -19,4 +19,5 @@ export default () => (
 
 const TitleSection = styled.div`
   position: relative;
+  height: 75vh;
 `;

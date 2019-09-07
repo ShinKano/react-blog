@@ -17,6 +17,9 @@ export default () => (
 const FlexContainer = styled.div`
   padding: 60px;
   display: flex;
+  @media screen and (max-width: 680px) {
+    display: block;
+  }
 `;
 
 const FlexColTow = styled.div`
