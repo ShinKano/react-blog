@@ -12,7 +12,7 @@ export default () => (
     <Title />
     <AboutSection />
     <FeaturesSection />
-    <FourColumn />
+    {/* <FourColumn /> */}
 
   </SampleSite>
 );

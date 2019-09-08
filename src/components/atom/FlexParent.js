@@ -7,4 +7,8 @@ const FlexParent = styled.div`
   }
 `;
 
-export default FlexParent;
+const FlexParentNoCol = styled.div`
+    display: flex;
+`;
+
+export {FlexParent, FlexParentNoCol};

@@ -1,56 +1,77 @@
 import React from 'react';
 import styled from 'styled-components';
 //
-import FlexParent from '../atom/FlexParent';
+import {FlexParentNoCol} from '../atom/FlexParent';
 import FlexChild from '../atom/FlexChild';
 import Paragraph from '../atom/Paragraph';
-import title from '../../images/title.jpg';
-import t from '../../images/image01.jpg';
 
 export default () => (
 
-    <FlexParent>
+    <FlexParentNoCol>
         <FlexChild>
             <PaddingDiv>
+                <h3>Egestas & Elit.</h3>
                 <Paragraph>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Integer imperdiet sit amet augue vel elementum. Vestibulum vehicula viverra urna, 
                     sed iaculis nisi egestas vitae. 
                 </Paragraph>
             </PaddingDiv>
+        </FlexChild>
+
+        <FlexChild>
+            <AlignDiv>
+                <ImageA />
+            </AlignDiv>
+            
+            <SquareBrown />
         </FlexChild>
 
         <FlexChild>
             <SquareDarkBrown />
-            <ImageA src={title} />
+            <AlignDiv>
+                <ImageA />
+            </AlignDiv>
         </FlexChild>
 
-        <FlexChild>
-            aaa
-        </FlexChild>
 
-        <FlexChild>
-            <PaddingDiv>
-                <Paragraph>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Integer imperdiet sit amet augue vel elementum. Vestibulum vehicula viverra urna, 
-                    sed iaculis nisi egestas vitae. 
-                </Paragraph>
-            </PaddingDiv>
-        </FlexChild>
-    </FlexParent>
+    </FlexParentNoCol>
 );
 
 const PaddingDiv = styled.div`
-    padding: 10%;
+    padding: 50px 10%;
 `;
 
 const SquareDarkBrown = styled.div`
-    width: 95%;
+    width: -webkit-fill-available;
+    
+    margin-right: 12px;
     height: 140px;
     background-color: #5C4D52;
+    max-width: 200px;
+    margin: 0 12px 12px auto;
+
+`;
+
+const SquareBrown = styled.div`
+    width: -webkit-fill-available;
+    margin-right: 12px;
+    height: 140px;
+    background-color: #A7937B;
+    margin-top: 9px;
+    max-width: 200px;
+    margin: 0 12px 12px auto;
 `;
 
 const ImageA = styled.img`
-    width: 95%;
+    width: -webkit-fill-available;
+    /* margin-right: 12px; */
+    height: 420px;
+    background-color: paleturquoise;
+    margin-top: 12px;
+`;
+
+const AlignDiv = styled.div`
+    max-width: 200px;
+    margin: 0 12px 12px auto;
 `;

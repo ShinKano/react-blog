@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 //
-import FlexParent from '../atom/FlexParent';
+import { FlexParent } from '../atom/FlexParent';
 import FlexChildOne from '../atom/FlexChild';
 import Divider from '../atom/Divider';
 import { FeatureItemA, FeatureItemB, FeatureItemC } from './FeatureItem';
