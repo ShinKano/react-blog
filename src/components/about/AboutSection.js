@@ -17,4 +17,5 @@ const AboutSection = styled.div`
   background-color: #fff;
   margin-top: 16px;
   color: #222;
+  min-height: 700px;
 `;
