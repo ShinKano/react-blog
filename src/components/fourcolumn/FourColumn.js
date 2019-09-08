@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import FlexParent from '../atom/FlexParent';
 import FlexChild from '../atom/FlexChild';
 import Paragraph from '../atom/Paragraph';
-import fourcol01 from '../../images/fourcola.jpg';
-
+import title from '../../images/title.jpg';
+import t from '../../images/image01.jpg';
 
 export default () => (
 
@@ -22,7 +22,7 @@ export default () => (
 
         <FlexChild>
             <SquareDarkBrown />
-            {/* <ImageA src={fourcol01} /> */}
+            <ImageA src={title} />
         </FlexChild>
 
         <FlexChild>
