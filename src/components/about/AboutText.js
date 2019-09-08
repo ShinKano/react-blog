@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 //
+import Paragraph from '../atom/Paragraph';
 
 export default () => (
   <Textbox>
@@ -22,8 +23,4 @@ const Textbox = styled.div`
     display: block;
     padding: 170px 10px 40px 10px;
   }
-`;
-
-const Paragraph = styled.p`
-    line-height: 1.6;
 `;

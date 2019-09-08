@@ -3,17 +3,26 @@ import styled from 'styled-components';
 //
 import FlexParent from '../atom/FlexParent';
 import FlexChildOne from '../atom/FlexChild';
+import { FeatureItemA, FeatureItemB, FeatureItemC } from './FeatureItem';
 
 
 export default () => (
-    <>
-    <FlexParent>
-        <FlexChildOne>
-            aaa
-        </FlexChildOne>
-        <FlexChildOne>
-            aaa
-        </FlexChildOne>
-    </FlexParent>
-    </>
+    <FeaturesSection>
+        <FlexParent>
+            <FlexChildOne>
+                <FeatureItemA />
+            </FlexChildOne>
+            <FlexChildOne>
+                <FeatureItemB />
+            </FlexChildOne>
+            <FlexChildOne>
+                <FeatureItemC />
+            </FlexChildOne>
+        </FlexParent>
+    </FeaturesSection>
 );
+
+const FeaturesSection = styled.div`
+    background-color: #5C4D52;
+    padding: 40px;
+`;

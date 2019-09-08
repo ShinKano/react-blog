@@ -20,7 +20,7 @@ export default () => (
 const FlexContainer = styled.div`
   padding: 40px;
   display: flex;
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 740px) {
     display: block;
   }
 `;
