@@ -3,6 +3,7 @@ import styled from 'styled-components';
 //
 import Title from '../components/title/Title';
 import AboutSection from '../components/about/AboutSection';
+import FeaturesSection from '../components/features/FeaturesSection';
 
 
 export default () => (
@@ -10,6 +11,7 @@ export default () => (
 
     <Title />
     <AboutSection />
+    <FeaturesSection />
 
   </SampleSite>
 );
