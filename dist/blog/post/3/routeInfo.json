@@ -1,1 +1,0 @@
-{"template":"../src/containers/Post","sharedHashesByProp":{},"data":{"post":{"id":3,"title":"This is a test for texts","content":"# this is H1 because this is markdown.\n\nand I put return abobe\n\n\n**this should be strong text.**","created_at":"2019-08-30T06:47:10.137Z","updated_at":"2019-08-30T06:47:10.154Z","image":[]}},"path":"blog/post/3"}
